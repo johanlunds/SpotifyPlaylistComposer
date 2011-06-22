@@ -19,7 +19,6 @@
 		7D5FBF7913ACF6CD00C8BA86 /* Search.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7813ACF6CD00C8BA86 /* Search.rb */; };
 		7D5FBF7B13AD010300C8BA86 /* SearchTerm.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */; };
 		7D5FBF7D13AD070800C8BA86 /* Song.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7C13AD070700C8BA86 /* Song.rb */; };
-		7D5FBF8113AD247100C8BA86 /* Constants.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF8013AD247100C8BA86 /* Constants.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 		7D5FBF7813ACF6CD00C8BA86 /* Search.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Search.rb; sourceTree = "<group>"; };
 		7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SearchTerm.rb; sourceTree = "<group>"; };
 		7D5FBF7C13AD070700C8BA86 /* Song.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Song.rb; sourceTree = "<group>"; };
-		7D5FBF8013AD247100C8BA86 /* Constants.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Constants.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 				7D5FBF7813ACF6CD00C8BA86 /* Search.rb */,
 				7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */,
 				7D5FBF7C13AD070700C8BA86 /* Song.rb */,
-				7D5FBF8013AD247100C8BA86 /* Constants.rb */,
 			);
 			path = PlaylistComposer;
 			sourceTree = "<group>";
@@ -197,7 +194,6 @@
 				7D5FBF7913ACF6CD00C8BA86 /* Search.rb in Resources */,
 				7D5FBF7B13AD010300C8BA86 /* SearchTerm.rb in Resources */,
 				7D5FBF7D13AD070800C8BA86 /* Song.rb in Resources */,
-				7D5FBF8113AD247100C8BA86 /* Constants.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +325,7 @@
 				7D5FBF5C13ACDFAD00C8BA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D5FBF5D13ACDFAD00C8BA86 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -337,6 +334,7 @@
 				7D5FBF5F13ACDFAD00C8BA86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

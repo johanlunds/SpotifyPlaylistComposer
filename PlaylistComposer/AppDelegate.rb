@@ -16,7 +16,6 @@ class AppDelegate
     
     def applicationDidFinishLaunching(a_notification)
         # Insert code here to initialize your application
-        search_terms_table.add(songs)
     end
     
     def awakeFromNib
@@ -24,6 +23,7 @@ class AppDelegate
     end
     
     def application(sender, openFile:file)
+        search_terms_table.add(songs(file))
     end
     
     def add_to_playlist(sender)
@@ -39,8 +39,8 @@ class AppDelegate
         end
     end
     
-    def songs
-      SONGS.strip.split("\n").map do |line|
+    def songs(file)
+      IO.read(file).strip.split("\n").map do |line|
         line =~ /"(.+)" by (.+)/i
         SearchTerm.new($1, $2)
       end
