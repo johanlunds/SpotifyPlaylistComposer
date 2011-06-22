@@ -24,15 +24,15 @@ class ResultsTableController
         if val.result
             search_finished(val) 
         else
-            #@queue.addOperation(Search.alloc.initWithTerm(val))
-            val.set_result
-            search_finished(val) 
+            val.search(self)
         end
     end
     
     def search_finished(term)
-        @data = term.result
-        table.reloadData
+        if term == @term
+            @data = term.result
+            table.reloadData
+        end
     end
     
     def tableView(aTableView, objectValueForTableColumn:aTableColumn, row:rowIndex)
