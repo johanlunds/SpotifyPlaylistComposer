@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PlaylistComposer' target in the 'PlaylistComposer' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

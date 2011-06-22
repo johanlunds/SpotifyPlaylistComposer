@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D5FBF4213ACDFAD00C8BA86 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5FBF4113ACDFAD00C8BA86 /* Cocoa.framework */; };
+		7D5FBF4413ACDFAD00C8BA86 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5FBF4313ACDFAD00C8BA86 /* MacRuby.framework */; };
+		7D5FBF4B13ACDFAD00C8BA86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF4913ACDFAD00C8BA86 /* InfoPlist.strings */; };
+		7D5FBF4E13ACDFAD00C8BA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FBF4D13ACDFAD00C8BA86 /* main.m */; };
+		7D5FBF5213ACDFAD00C8BA86 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF5013ACDFAD00C8BA86 /* MainMenu.xib */; };
+		7D5FBF5513ACDFAD00C8BA86 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF5413ACDFAD00C8BA86 /* rb_main.rb */; };
+		7D5FBF5713ACDFAD00C8BA86 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF5613ACDFAD00C8BA86 /* AppDelegate.rb */; };
+		7D5FBF7513ACF1CE00C8BA86 /* SearchTermsTableController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7413ACF1CE00C8BA86 /* SearchTermsTableController.rb */; };
+		7D5FBF7713ACF1DC00C8BA86 /* ResultsTableController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7613ACF1DC00C8BA86 /* ResultsTableController.rb */; };
+		7D5FBF7913ACF6CD00C8BA86 /* Search.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7813ACF6CD00C8BA86 /* Search.rb */; };
+		7D5FBF7B13AD010300C8BA86 /* SearchTerm.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */; };
+		7D5FBF7D13AD070800C8BA86 /* Song.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF7C13AD070700C8BA86 /* Song.rb */; };
+		7D5FBF8113AD247100C8BA86 /* Constants.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FBF8013AD247100C8BA86 /* Constants.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D5FBF3D13ACDFAD00C8BA86 /* PlaylistComposer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistComposer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D5FBF4113ACDFAD00C8BA86 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7D5FBF4313ACDFAD00C8BA86 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		7D5FBF4813ACDFAD00C8BA86 /* PlaylistComposer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlaylistComposer-Info.plist"; sourceTree = "<group>"; };
+		7D5FBF4A13ACDFAD00C8BA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D5FBF4C13ACDFAD00C8BA86 /* PlaylistComposer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaylistComposer-Prefix.pch"; sourceTree = "<group>"; };
+		7D5FBF4D13ACDFAD00C8BA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D5FBF5113ACDFAD00C8BA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7D5FBF5413ACDFAD00C8BA86 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		7D5FBF5613ACDFAD00C8BA86 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		7D5FBF7413ACF1CE00C8BA86 /* SearchTermsTableController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SearchTermsTableController.rb; sourceTree = "<group>"; };
+		7D5FBF7613ACF1DC00C8BA86 /* ResultsTableController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ResultsTableController.rb; sourceTree = "<group>"; };
+		7D5FBF7813ACF6CD00C8BA86 /* Search.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Search.rb; sourceTree = "<group>"; };
+		7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = SearchTerm.rb; sourceTree = "<group>"; };
+		7D5FBF7C13AD070700C8BA86 /* Song.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Song.rb; sourceTree = "<group>"; };
+		7D5FBF8013AD247100C8BA86 /* Constants.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Constants.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D5FBF3A13ACDFAD00C8BA86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FBF4213ACDFAD00C8BA86 /* Cocoa.framework in Frameworks */,
+				7D5FBF4413ACDFAD00C8BA86 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5FBF3213ACDFAD00C8BA86 = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF4613ACDFAD00C8BA86 /* PlaylistComposer */,
+				7D5FBF4013ACDFAD00C8BA86 /* Frameworks */,
+				7D5FBF3E13ACDFAD00C8BA86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D5FBF3E13ACDFAD00C8BA86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF3D13ACDFAD00C8BA86 /* PlaylistComposer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D5FBF4013ACDFAD00C8BA86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF4113ACDFAD00C8BA86 /* Cocoa.framework */,
+				7D5FBF4313ACDFAD00C8BA86 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D5FBF4613ACDFAD00C8BA86 /* PlaylistComposer */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF5613ACDFAD00C8BA86 /* AppDelegate.rb */,
+				7D5FBF4F13ACDFAD00C8BA86 /* Resources */,
+				7D5FBF5313ACDFAD00C8BA86 /* Other Sources */,
+				7D5FBF4713ACDFAD00C8BA86 /* Supporting Files */,
+				7D5FBF7413ACF1CE00C8BA86 /* SearchTermsTableController.rb */,
+				7D5FBF7613ACF1DC00C8BA86 /* ResultsTableController.rb */,
+				7D5FBF7813ACF6CD00C8BA86 /* Search.rb */,
+				7D5FBF7A13AD010300C8BA86 /* SearchTerm.rb */,
+				7D5FBF7C13AD070700C8BA86 /* Song.rb */,
+				7D5FBF8013AD247100C8BA86 /* Constants.rb */,
+			);
+			path = PlaylistComposer;
+			sourceTree = "<group>";
+		};
+		7D5FBF4713ACDFAD00C8BA86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF4813ACDFAD00C8BA86 /* PlaylistComposer-Info.plist */,
+				7D5FBF4913ACDFAD00C8BA86 /* InfoPlist.strings */,
+				7D5FBF4C13ACDFAD00C8BA86 /* PlaylistComposer-Prefix.pch */,
+				7D5FBF4D13ACDFAD00C8BA86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D5FBF4F13ACDFAD00C8BA86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF5013ACDFAD00C8BA86 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7D5FBF5313ACDFAD00C8BA86 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7D5FBF5413ACDFAD00C8BA86 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		7D5FBF4513ACDFAD00C8BA86 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 7D5FBF5D13ACDFAD00C8BA86 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		7D5FBF3C13ACDFAD00C8BA86 /* PlaylistComposer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D5FBF5A13ACDFAD00C8BA86 /* Build configuration list for PBXNativeTarget "PlaylistComposer" */;
+			buildPhases = (
+				7D5FBF3913ACDFAD00C8BA86 /* Sources */,
+				7D5FBF3A13ACDFAD00C8BA86 /* Frameworks */,
+				7D5FBF3B13ACDFAD00C8BA86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaylistComposer;
+			productName = PlaylistComposer;
+			productReference = 7D5FBF3D13ACDFAD00C8BA86 /* PlaylistComposer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D5FBF3413ACDFAD00C8BA86 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 7D5FBF3713ACDFAD00C8BA86 /* Build configuration list for PBXProject "PlaylistComposer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D5FBF3213ACDFAD00C8BA86;
+			productRefGroup = 7D5FBF3E13ACDFAD00C8BA86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D5FBF3C13ACDFAD00C8BA86 /* PlaylistComposer */,
+				7D5FBF4513ACDFAD00C8BA86 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5FBF3B13ACDFAD00C8BA86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FBF4B13ACDFAD00C8BA86 /* InfoPlist.strings in Resources */,
+				7D5FBF5213ACDFAD00C8BA86 /* MainMenu.xib in Resources */,
+				7D5FBF5513ACDFAD00C8BA86 /* rb_main.rb in Resources */,
+				7D5FBF5713ACDFAD00C8BA86 /* AppDelegate.rb in Resources */,
+				7D5FBF7513ACF1CE00C8BA86 /* SearchTermsTableController.rb in Resources */,
+				7D5FBF7713ACF1DC00C8BA86 /* ResultsTableController.rb in Resources */,
+				7D5FBF7913ACF6CD00C8BA86 /* Search.rb in Resources */,
+				7D5FBF7B13AD010300C8BA86 /* SearchTerm.rb in Resources */,
+				7D5FBF7D13AD070800C8BA86 /* Song.rb in Resources */,
+				7D5FBF8113AD247100C8BA86 /* Constants.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D5FBF3913ACDFAD00C8BA86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FBF4E13ACDFAD00C8BA86 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D5FBF4913ACDFAD00C8BA86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5FBF4A13ACDFAD00C8BA86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D5FBF5013ACDFAD00C8BA86 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D5FBF5113ACDFAD00C8BA86 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D5FBF5813ACDFAD00C8BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D5FBF5913ACDFAD00C8BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D5FBF5B13ACDFAD00C8BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaylistComposer/PlaylistComposer-Prefix.pch";
+				INFOPLIST_FILE = "PlaylistComposer/PlaylistComposer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D5FBF5C13ACDFAD00C8BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PlaylistComposer/PlaylistComposer-Prefix.pch";
+				INFOPLIST_FILE = "PlaylistComposer/PlaylistComposer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D5FBF5E13ACDFAD00C8BA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7D5FBF5F13ACDFAD00C8BA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D5FBF3713ACDFAD00C8BA86 /* Build configuration list for PBXProject "PlaylistComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5FBF5813ACDFAD00C8BA86 /* Debug */,
+				7D5FBF5913ACDFAD00C8BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D5FBF5A13ACDFAD00C8BA86 /* Build configuration list for PBXNativeTarget "PlaylistComposer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5FBF5B13ACDFAD00C8BA86 /* Debug */,
+				7D5FBF5C13ACDFAD00C8BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D5FBF5D13ACDFAD00C8BA86 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5FBF5E13ACDFAD00C8BA86 /* Debug */,
+				7D5FBF5F13ACDFAD00C8BA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D5FBF3413ACDFAD00C8BA86 /* Project object */;
+}
